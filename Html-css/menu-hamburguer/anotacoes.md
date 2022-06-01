@@ -28,16 +28,35 @@ ___
 9. <strong><em><code>list-style</code></em></strong>: Remove sinalização da lista. bolinhas, números...
 ___
 10. <strong><em><code>display</code></em></strong> :
-
+___
 11.  <strong><em><code>box-sizing</code></em></strong>:
-
+___
 12.  <strong><em><code>transform</code></em></strong>: Aplica uma transformação ao elemento 2D ou 3D. Permitindo girar, dimensionar, mover, desvia, etc.,
 
 Referência do <strong><a href="https://www.w3schools.com/csSref/playdemo.asp?filename=playcss_transform" style="color:#389;"><em>transform</em></a></strong>. 
-
+___
 13. <strong><em><code>visibility</code></em></strong>:
-
+___
 14. <strong><em><code>opacity</code></em></strong>:
+___
+15. <strong><em><code>flex-direction</code></em></strong>:  
+___
+16. <strong><em><code>align-items</code></em></strong>: 
+___
+17. <strong><em><code>text-transform</code></em></strong>: 
+___
+18. <strong><em><code>letter-spacing</code></em></strong>: Espaço entre as letras.
+___
+19. <strong><em><code>text-decoration</code></em></strong>: Remove ou adiciona decoração do texto, usado principalmente para remover decoração de links
+___
+20. <strong><em><code>min-width</code></em></strong>: Tamanho mínimo
+21. <strong><em><code>animation</code></em></strong>: Animação recebe: name: nome da animação, quando criar o @keyframes.| duration: duração da animação, quanto tempo deve levar para completar um ciclo | timing-function: tempo que vai ocorrer as curvas de animação| delay: tempo antes de começar a animação|, iteration-count: quantas vezes irá repetir| , direction: onde vai ocorrer|, fill-mod: define o estilo antes e depois da operação
+___
+
+
+
+
+
 
 
 
@@ -48,4 +67,8 @@ Referência do <strong><a href="https://www.w3schools.com/csSref/playdemo.asp?fi
 2.  <strong><em><code>:nth-child()</code></em></strong>: Em ocasiões onde tem tem mais de um filho, é possível escolher o necessário, sem a necessidade de referenciar especificamente. Adicionando uma numeração
 
 3. o simbolo de <code>adição(+)</code>, é um seletor que significa o que está dentro do elemento principal(elemento Pai)no css.
+
+4. <strong><em><code>liner-gradient()</code></em></strong>:valor da propriedade background. Usado para adicionar varias imagens que si conectam umas com as outras degradé 
+
+5.<strong><em><code>cubic-bezier()</code></em></strong>: Define a mão as curvas da animação, com se move no inicio, no final ou no meio
 
