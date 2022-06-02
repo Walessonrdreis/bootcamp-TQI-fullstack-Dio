@@ -3,6 +3,9 @@
 <h2>Links Úteis:</h2>
 <ul>
 <li><strong><a href="https://www.w3schools.com/cssref/">Documentacao W3Scools</a></strong></li>
+<li><strong><a href="https://developer.mozilla.org/pt-BR/">Documentacao MDN web monzilla</a></strong></li>
+<li><strong><a href="https://fonts.google.com/">Fontes: Google Fonts</a></strong></li>
+
 </ul>
 <hr/>
 
@@ -50,8 +53,41 @@ ___
 19. <strong><em><code>text-decoration</code></em></strong>: Remove ou adiciona decoração do texto, usado principalmente para remover decoração de links
 ___
 20. <strong><em><code>min-width</code></em></strong>: Tamanho mínimo
+____
 21. <strong><em><code>animation</code></em></strong>: Animação recebe: name: nome da animação, quando criar o @keyframes.| duration: duração da animação, quanto tempo deve levar para completar um ciclo | timing-function: tempo que vai ocorrer as curvas de animação| delay: tempo antes de começar a animação|, iteration-count: quantas vezes irá repetir| , direction: onde vai ocorrer|, fill-mod: define o estilo antes e depois da operação
 ___
+
+22. <strong><em><code>animation-timing-function</code></em></strong>: 
+
+referência: <a href="https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp">animation-timing-function</a>
+___
+23. <strong><em><code>min-width</code></em></strong>: 
+24. <strong><em><code>min-width</code></em></strong>: 
+25. <strong><em><code>min-width</code></em></strong>: 
+26. <strong><em><code>min-width</code></em></strong>: 
+27. <strong><em><code>min-width</code></em></strong>: 
+28. <strong><em><code>min-width</code></em></strong>: 
+29. <strong><em><code>min-width</code></em></strong>: 
+30. <strong><em><code>min-width</code></em></strong>: 
+31. <strong><em><code>min-width</code></em></strong>: 
+32. <strong><em><code>min-width</code></em></strong>: 
+33. <strong><em><code>min-width</code></em></strong>: 
+34. <strong><em><code>min-width</code></em></strong>: 
+35. <strong><em><code>min-width</code></em></strong>: 
+36. <strong><em><code>min-width</code></em></strong>: 
+37. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
+22. <strong><em><code>min-width</code></em></strong>: 
 
 
 
@@ -61,6 +97,9 @@ ___
 
 
 # importante
+<div style=" padding:10px;
+border:solid 4px #5c6790 ">
+
 
 1. <strong><em><code>for =""</code></em></strong> serve para indicar que aquela tag, ou item pertence a outra, utilizando como valor o nome da classe da tag que ele pertence.
 
@@ -70,5 +109,6 @@ ___
 
 4. <strong><em><code>liner-gradient()</code></em></strong>:valor da propriedade background. Usado para adicionar varias imagens que si conectam umas com as outras degradé 
 
-5.<strong><em><code>cubic-bezier()</code></em></strong>: Define a mão as curvas da animação, com se move no inicio, no final ou no meio
+5. <strong><em><code>cubic-bezier()</code></em></strong>: Define a mão as curvas da animação, com se move no inicio, no final ou no meio
 
+</div>
