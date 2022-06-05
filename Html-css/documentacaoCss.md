@@ -30,7 +30,7 @@ ___
 ___
 9. <strong><em><code>list-style</code></em></strong>: Remove sinalização da lista. bolinhas, números...
 ___
-10. <strong><em><code>display</code></em></strong> :
+10. <strong><em><code>display: block</code></em></strong> :
 ___
 11.  <strong><em><code>box-sizing</code></em></strong>:
 ___
@@ -50,7 +50,7 @@ ___
 ___
 18. <strong><em><code>letter-spacing</code></em></strong>: Espaço entre as letras.
 ___
-19. <strong><em><code>text-decoration</code></em></strong>: Remove ou adiciona decoração do texto, usado principalmente para remover decoração de links
+19. <strong><em><code>text-decoration</code></em></strong>: Remove ou adiciona decoração do texto, usado principalmente para remover decoração de links valores: underline, overline, line-through, underline overline
 ___
 20. <strong><em><code>min-width</code></em></strong>: Tamanho mínimo
 ____
@@ -61,11 +61,11 @@ ___
 
 referência: <a href="https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp">animation-timing-function</a>
 ___
-23. <strong><em><code>user-select</code></em></strong>: 
-24. <strong><em><code>input::placeholder</code></em></strong>: 
-25. <strong><em><code>resize</code></em></strong>: 
-26. <strong><em><code>overflow</code></em></strong>: 
-27. <strong><em><code>min-width</code></em></strong>: 
+23. <strong><em><code>line-height</code></em></strong>: Altura da linha
+24. <strong><em><code>font-family</code></em></strong>: Fonte a ser usada
+25. <strong><em><code>font-weight</code></em></strong>: largura da fonte, letras...
+26. <strong><em><code>position</code></em></strong>:  Defide a posicao dos elementos na tela além dos tipos de position que veremos a baixo, existe quatro valores possíveis para definir a posição do elemento position, que são top, right, left e bottom, que representa respectivamente topo, direita, esquerda e fundo tomando como referência a posição do elemento pai,  tipos de position: static, valor padrão, representa que não tem nehum position informado, relative: o elemento se posiciona em relação ao pai, absolute: o elemento sai da relação entre um elemento pai, não tendo referência, pode ficar em qualquer lugar da página. fixed: o elemento parece com o absolute, com a diferença quê o elemento ficará sempre na posição definida, independente de como a página é submentida a Scrolls. Ou seja mesmo movimentado a tela, o elemento ficará a vista.
+27. <strong><em><code>display:grid ou -ms-grade <a href="https://www.devmedia.com.br/entendendo-o-gridsystem-em-css3/27721">Referencia</a></code></em></strong>: 
 28. <strong><em><code>min-width</code></em></strong>: 
 29. <strong><em><code>min-width</code></em></strong>: 
 30. <strong><em><code>min-width</code></em></strong>: 
@@ -76,18 +76,18 @@ ___
 35. <strong><em><code>min-width</code></em></strong>: 
 36. <strong><em><code>min-width</code></em></strong>: 
 37. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
-22. <strong><em><code>min-width</code></em></strong>: 
+38. <strong><em><code>min-width</code></em></strong>: 
+39. <strong><em><code>min-width</code></em></strong>: 
+40. <strong><em><code>min-width</code></em></strong>: 
+41. <strong><em><code>min-width</code></em></strong>: 
+42. <strong><em><code>min-width</code></em></strong>: 
+43. <strong><em><code>min-width</code></em></strong>: 
+44. <strong><em><code>min-width</code></em></strong>: 
+45. <strong><em><code>min-width</code></em></strong>: 
+46. <strong><em><code>min-width</code></em></strong>: 
+47. <strong><em><code>min-width</code></em></strong>: 
+48. <strong><em><code>min-width</code></em></strong>: 
+49. <strong><em><code>min-width</code></em></strong>: 
 
 
 

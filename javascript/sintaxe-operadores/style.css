@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    
+width: 960px;
+height: auto;
+
+
+}
+section {
+    
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 300px;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 40%;
+    align-content: flex-end;
+}
+div.returnCalc{
+    width: 200px;
+    height: 50px;
+    border: 2px solid ;
+    font-size: 20px;
+    background-color: aliceblue;
+}
