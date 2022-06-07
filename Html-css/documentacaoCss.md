@@ -66,11 +66,11 @@ ___
 25. <strong><em><code>font-weight</code></em></strong>: largura da fonte, letras...
 26. <strong><em><code>position</code></em></strong>:  Defide a posicao dos elementos na tela além dos tipos de position que veremos a baixo, existe quatro valores possíveis para definir a posição do elemento position, que são top, right, left e bottom, que representa respectivamente topo, direita, esquerda e fundo tomando como referência a posição do elemento pai,  tipos de position: static, valor padrão, representa que não tem nehum position informado, relative: o elemento se posiciona em relação ao pai, absolute: o elemento sai da relação entre um elemento pai, não tendo referência, pode ficar em qualquer lugar da página. fixed: o elemento parece com o absolute, com a diferença quê o elemento ficará sempre na posição definida, independente de como a página é submentida a Scrolls. Ou seja mesmo movimentado a tela, o elemento ficará a vista.
 27. <strong><em><code>display:grid ou -ms-grade <a href="https://www.devmedia.com.br/entendendo-o-gridsystem-em-css3/27721">Referencia</a></code></em></strong>: 
-28. <strong><em><code>min-width</code></em></strong>: 
-29. <strong><em><code>min-width</code></em></strong>: 
-30. <strong><em><code>min-width</code></em></strong>: 
-31. <strong><em><code>min-width</code></em></strong>: 
-32. <strong><em><code>min-width</code></em></strong>: 
+28. <strong><em><code>outline</code></em></strong>: 
+29. <strong><em><code>font</code></em></strong>: 
+30. <strong><em><code>padding-inline</code></em></strong>: 
+31. <strong><em><code>outline-color</code></em></strong>: 
+32. <strong><em><code>cursor</code></em></strong>: 
 33. <strong><em><code>min-width</code></em></strong>: 
 34. <strong><em><code>min-width</code></em></strong>: 
 35. <strong><em><code>min-width</code></em></strong>: 
@@ -112,3 +112,35 @@ border:solid 4px #5c6790 ">
 5. <strong><em><code>cubic-bezier()</code></em></strong>: Define a mão as curvas da animação, com se move no inicio, no final ou no meio
 
 </div>
+
+## VALORES
+1. <strong><em><code>translate()</code></em></strong>
+2. <strong><em><code>rotate()</code></em></strong>
+3. <strong><em><code>acale()</code></em></strong>
+1. <strong><em><code>translateY()</code></em></strong>
+1. <strong><em><code>translateX()</code></em></strong>
+1. <strong><em><code>ease</code></em></strong>
+1. <strong><em><code>ease-in-out</code></em></strong>
+1. <strong><em><code>ease-in</code></em></strong>
+1. <strong><em><code>ease-out</code></em></strong>
+1. <strong><em><code>translate()</code></em></strong>
+1. <strong><em><code>translate()</code></em></strong>
+1. <strong><em><code>translate()</code></em></strong>
+1. <strong><em><code>translate()</code></em></strong>
+
+
+
+
+## Sub-Propriedades
+<ol>
+<li><strong><em><code>:hover</code></em></strong></li>
+<li><strong><em><code>:focus</code></em></strong></li>
+<li><strong><em><code>:valid</code></em></strong></li>
+<li><strong><em><code>::after</code></em></strong></li>
+<li><strong><em><code>::before</code></em></strong></li>
+<li><strong><em><code>:is(outras :sub-props, :sub-props)</code></em></strong></li>
+<li><strong><em><code>:hover</code></em></strong></li>
+<li><strong><em><code>:hover</code></em></strong></li>
+<li><strong><em><code>:hover</code></em></strong></li>
+
+</ol>
