@@ -457,8 +457,120 @@ logLetras(nums)
  };
 
  getFullName();
+
+ ////
+ const pessoa={
+ nome:'Miguel',
+};
+const animal={
+  nome:'Murphy',
+};
+function getSomething(){
+ console.log(this.nome);
+}
+getSomething.call(pessoa);
  */
 
+/*
+
+   ####             ###      ###
+  ##  ##             ##       ##
+ ##        ####      ##       ##
+ ##           ##     ##       ##
+ ##        #####     ##       ##
+  ##  ##  ##  ##     ##       ##
+   ####    #####    ####     ####
+
+
+const myObj={
+    num1:2,
+    num2:4,
+};
+function soma(a,b){
+    console.log(this.num1+this.num2+a+b);
+}
+soma.call(my bj,1,5);
+// 12
+
+///
+
+/*
+
+   ##                        ###
+  ####                        ##
+ ##  ##   ######   ######     ##     ##  ##
+ ##  ##    ##  ##   ##  ##    ##     ##  ##
+ ######    ##  ##   ##  ##    ##     ##  ##
+ ##  ##    #####    #####     ##      #####
+ ##  ##    ##       ##       ####        ##
+          ####     ####              #####
+
+
+          const my0bj={
+    num1:2,
+    num2:4,
+};
+function soma(a,b){
+    console.log(this.num1+this.num2+a+b);
+}
+soma.apply(myObj,[1,5]);
+// 12
+
+
+
+
+
+
+*/
+/*
+
+const retornaNomes = function(){
+    return this.nome;
+};
+let bruno = retornaNomes.bind({nome:'Bruno'});
+bruno();
+// Bruno
+
+
+*/
+
+/*ARROW FUNCTIONS
+//função normal
+const helloWorld = function(){
+  return "Hello World";
+}
+// passa a ser:
+const helloWorld = () => {
+  return "Hello World";
+}
+// quando a função é curta também pode ser representada dessa forma:
+const helloWorld = () => "Hello World";
+
+//mais exemplos:
+//Caso exita apenas uma linha, pode dispensar as chaves e o return:
+const soma = (a,b) => a + b;
+
+soma(4,6);
+//10
+
+//ou  Caso exista apanas um parâmetro, pode dispensar os parênteses.
+
+const soma = a => a;
+soma(4);
+//4
+*//*
+const myObj={
+    num1:2,
+    num2:4,
+};
+function soma(a,b){
+    console.log(this.numl + this.num2+a+b);
+}
+soma.apply(myObj,[[1,5]);
+// 12
+
+
+*/
 
 function findMax() {
     let max = -Infinity;//-infinity para garantir que possa ser mandado to tipo de numero tanto negativo quanto positivo
