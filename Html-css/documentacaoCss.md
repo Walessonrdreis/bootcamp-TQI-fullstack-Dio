@@ -144,3 +144,19 @@ border:solid 4px #5c6790 ">
 <li><strong><em><code>:hover</code></em></strong></li>
 
 </ol>
+
+<h2>Unidades de valores</h2>
+<ol>
+<li><strong><em><code>:cm</code></em></strong></li> centímetros. 
+<li><strong><em><code>:mm</code></em></strong></li> milímetros. 
+<li><strong><em><code>:in(1in = 96px = 2.54cm)</code></em></strong></li>inches(cm, mm, in, pt e pc) medias absolutas, não recomendada seu uso, pois essas medidas, apresenta tamanho exatamente o que é, não são recomendadas porque os tamanhos de telas variam muito.  
+<li><strong><em><code>:pixels (px = 1/72 de in)(px)</code></em></strong></li>.Os pixels (px) são relativos ao dispositivos de visualização. Para dispositivos low-dpi, 1 px é um pixel de dispositivo(ponto) do display. Para impressoras e telas de alta resolução, 1px implica vários pixels de dispositivo.O px, portanto, não é definido como uma medida constante, mas algo que depende do tipo de dispositivo e o uso típico deste.
+<li><strong><em><code>:points (1pt - 1/72 de in)(pt)</code></em></strong></li> centímetros. 
+<li><strong><em><code>:picas(1pc = 12pt)(pc)</code></em></strong></li> centímetros. 
+<li><strong><em><code>:em</code></em></strong></li> Simplesmente o tamanho da fonte. Em um elemento com a fonte de 2in, 1em será, portanto, 2in. Empresando tamanhos, como margins e paddings, com em significa que eles são relativos ao tamanho da fonte e se o usuário tem uma fonte grande (ex. uma tela grande) ou uma fonte pequena (ex. dispositivo handheld) , os tamanhos serão proporcionais. Declarações como 'text-indent: 1.5em' e 'margin: 1em' são extremamente comuns em CSS. 
+<li><strong><em><code>:ex</code></em></strong></li> Seu propósito é expressar tamanhos relacionados à "altura do x" de uma fonte. A altura do x é, grosso modo, a altura de letras em minúsculo como a, c, m, ou o. Fontes que têm o mesmo tamanho (e, portanto, o mesmo em) podem variar muito o tamanho de suas letras em minúsculo, e, quando é importante que alguma imagem, por exemplo, se iguale à altura do x, a unidade ex está disponível. 
+<li><strong><em><code>:rem (root em)</code></em></strong></li> É o tamanho de fonte do elemento raiz do documento. Diferentemente da (em), que pode ser diferente para cada elemento no <strong>rem</strong> é constante em todo elemento.
+<li><strong><em><code>:vw</code></em></strong></li> Tamanho relativo à janela do leitor. <strong>vw</strong> é 1/100 da largura da janela. 
+<li><strong><em><code>:vh</code></em></strong></li><strong>vh</strong> é 1/100 da altura da janela. 
+
+</ol>
