@@ -1,4 +1,4 @@
-# Documentacao JS
+# Documentação JS
 ___
 Links Úteis
 
@@ -54,7 +54,28 @@ ___
 23. `Arrow function`   .Não faz hoisting. Sempre armazenada em const. Não existe objeto arguments, o construtor new MeuObjeto() não pode ser utilizado. this sempre será o objeto global, não usa, call, apply e bind. Nunca fazer arrow function como método de um objeto.
 24. `hoisting` pode ser chamada antes de ter sido declarada, funções comuns fazem hoisting.
 25. `push` 
+
+26. `Promise`
+27. `setTimeout`
+28. `await` pode realizar encadeamento das chamadas
+29. `.then` é o que será feito depois, caso a promise seja resolvida
+
 ### Debugging e Error Handling   
 
+### javascript assíncrono 
+1. Assíncrono: que não ocorre ou não se efetiva ao mesmo tempo.
+2. O javascript roda de maneira síncrona, efetua um processo por vez
+3. Promises: Objeto de processamento assíncrono. Inicialmente, seu valor é desconhecido. Ela pode estão, ser <strong>resolvida</strong> ou <strong>rejeitada</strong>.
 
+A promise te 3 estados:
+1. pending: Pendente
+2. Fulfilled: Completado
+3. Rejected: quando deu errado, foi rejeitado. 
+
+4. Async/await: Funções assíncronas precisam dessas duas palavras chave.
+5. A palavra `async` existe para definir funções assíncronas. quando for necessário resolver uma promise é necessário o async para ser possível a utilização do `await` palavra criada para ser utilizada exclusivamente para o promise.
+
+O await para o código até o promise ser resolvido, pois o javascript por se só não resolve pois ele é síncrono, por isso sem o await é impossível conseguir o resultado da promise. Em outras palavras, só com o uso da palavra await se consegue o resultado da promise.
+
+se for chamado apenas uma promise sem await, ela retorna outra promise. Quando a função for assíncrona é necessário ter a await, pois se assim não for ela tera como resultado sempre <pending> Pendente. quando for chamar <strong>`await myPromise()`</strong>
 

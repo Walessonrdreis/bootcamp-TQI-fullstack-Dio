@@ -71,12 +71,12 @@ ___
 30. <strong><em><code>padding-inline</code></em></strong>: 
 31. <strong><em><code>outline-color</code></em></strong>: 
 32. <strong><em><code>cursor</code></em></strong>: 
-33. <strong><em><code>min-width</code></em></strong>: 
-34. <strong><em><code>min-width</code></em></strong>: 
-35. <strong><em><code>min-width</code></em></strong>: 
-36. <strong><em><code>min-width</code></em></strong>: 
-37. <strong><em><code>min-width</code></em></strong>: 
-38. <strong><em><code>min-width</code></em></strong>: 
+33. <strong><em><code>object-fit</code></em></strong>: 
+34. <strong><em><code>mix-blend-mode</code></em></strong>: valor multiply:se inserido em um texto o video será passado dentro do texto
+35. <strong><em><code>columns</code></em></strong>: Colunas responsivas
+36. <strong><em><code>text-shadow</code></em></strong>: Por sombra em textos
+37. <strong><em><code>resize</code></em></strong>: 
+38. <strong><em><code>overflow</code></em></strong>: 
 39. <strong><em><code>min-width</code></em></strong>: 
 40. <strong><em><code>min-width</code></em></strong>: 
 41. <strong><em><code>min-width</code></em></strong>: 
