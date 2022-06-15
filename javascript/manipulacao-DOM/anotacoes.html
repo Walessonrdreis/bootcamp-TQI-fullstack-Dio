@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações sobre manipulação do DOM </title>
+    <style>
+        table,th,td{border: 1px solid #000;}
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>Métodos</h2>
+        <div>
+            <h3>Selecionando os elementos em um página</h3>
+            <ul>
+                <li><code>document.getElementById('id_do_elemento');</code></li>
+                <li><code>document.getElementsByTagName('nome_da_tag'); Retorna um array, com a tag, para selecionar os itens dentro, basta selecionar com sintaxe do array do javascript</code></li>
+                <li><code>document.getElementByClassName('Class_do_elemento'); Semelhante ao tagname, retorna no array que tem a necessidade de ser escolhida pelo índice</code></li>
+                <li>Com a busca querySelectorALL é possível realizar buscas mais dinâmicas, como nos exemplo a baixo </li>
+                <li><code>document.querySelectorALL('primeira-classe .segunda-classe')retorna um array;</code></li>
+                <li><code>document.querySelectorALL('li .opcao');</code></li>
+                
+                </ul>
+        </div>
+        <div>
+            <h3>Adicionar e deletar</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Métodos</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+
+                        <tr>
+                            <td><code>document.crateElement(element)</code></td>
+                            <td>Cria um novo elemento HTML</td>
+
+                        </tr>
+                        <tr>
+                            <td><code>document.removeChild(element)</code></td>
+                            <td>Remove um elemento</td>
+                        </tr>
+                        <tr>
+                            <td><code>document.appendChild(element)</code></td>
+                            <td>Adiciona um elemento</td>
+                        </tr>
+                        <tr>
+                            <td><code>document.replaceChild(<em>new, old</em>)</code></td>
+                            <td>Substitui um elemento</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+        </div>
+        <div>
+            <h3>classes</h3>
+        </div>
+        <div>
+            <h3>Eventos</h3>
+            <table>
+                <thead>
+                    
+                    <tr>
+                        <th>Tipos</th>
+                        <th>Exemplos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mouse</td>
+                        <td><code>mouseover, mouseout</code></td>
+                    </tr>
+                    <tr>
+                        <td>Clique</td>
+                        <td><code>click, dbclick clique duplo</code></td>
+                    </tr>
+                    <tr>
+                        <td>Atualização</td>
+                        <td><code> Change, load</code></td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <h4>Event listener</h4>
+            <p>Diretamente no JavaScript, cria um evento que vai ser acionado no momento em que o usuário realizar determinada ação.   </p>
+            <h4>Atribuindo HTML</h4>
+            <p>Especifica a função a ser chamada no elemento HTML. obs: em todos os eventos que forem colocados pelo HTML, sempre colocar "on" antes do nome do evento</p>
+            <div>
+                <h3>exemplo</h3>
+                <code>
+                   <"h1"> onclick="mudarTexto(this)" >Clique aqui! <"/h1"> <br>
+                    <"script">
+                        function mudarText0(id){<br>
+                             id.innerHTML = "mudei!";
+                        }<div class="d-none d-sm-block">
+                            
+                        </div>
+                    "<"/script">"
+                </code>
+                
+            </div>
+            
+
+        </div>
+    </section>
+</body>
+</html>

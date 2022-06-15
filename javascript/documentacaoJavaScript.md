@@ -19,7 +19,11 @@ border:2px solid #559ffb;
 
 
 ## lembrete 
-### Atribuição
+
+### Necessidades Urgentes de Revisão e aperfeiçoamento:
+
+1. Arrow functions <a href=" https://www.w3schools.com/Js/js_arrow_function.asp ">w3schools</a> e <a href=" https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions ">mdn web docs</a>
+### Atribuição 
 camel case = camelCase
 
 
@@ -79,3 +83,6 @@ O await para o código até o promise ser resolvido, pois o javascript por se s�
 
 se for chamado apenas uma promise sem await, ela retorna outra promise. Quando a função for assíncrona é necessário ter a await, pois se assim não for ela tera como resultado sempre <pending> Pendente. quando for chamar <strong>`await myPromise()`</strong>
 
+### Manipulando o DOM 
+1. Element.classList: por padrão vem com uma lista de classes(pesquisa mais sobre)
+<a href="https://www.w3schools.com/jsref/prop_element_classlist.asp">Documentação</a>

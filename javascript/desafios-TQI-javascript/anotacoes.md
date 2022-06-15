@@ -1,0 +1,1 @@
+### Formula para realizar calculo de números naturais, onde [1,5] um é o primeiro número, que é somado por todos os números até cinco, que é o último número total = (A+B) * (B-A+1) / 2 
