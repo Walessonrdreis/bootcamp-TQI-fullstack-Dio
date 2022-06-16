@@ -2,5 +2,6 @@
     "liveServer.settings.useLocalIp": true,
     "cSpell.words": [
         "maiusculas"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

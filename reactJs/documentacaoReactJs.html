@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,97 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Documentação ReactJs reisba</title>
 </head>
-<body>
 
+<body>
+    <h1>Estudos ReactJs</h1>
+    <section class="linkes">
+        <a href="https://github.com/Tautorn?tab=repositories" target="_blank">GitHub do Professor</a>
+    </section>
     <section class="Introducao">
+
         <div>
+            <h2>Sobre:</h2>
             <p>O ReactJs é uma biblioteca javascript para criar interfaces de usuário </p>
             <p>Criada em 2011 por Jordan Walke no Facebook;</p>
             <p>Baseado no XHO, um framework para criação de HTML no PHP</p>
             <p>Utilizado a principio no mural de notícias da ferramenta</p>
-            <p>Depois de 4 anos foi lançado o React NAtive para mobile. E no mesmo ano  o UWP(Universal Windows Platform)para desenvolvimento Web </p>
+            <p>Depois de 4 anos foi lançado o React NAtive para mobile. E no mesmo ano o UWP(Universal Windows
+                Platform)para desenvolvimento Web </p>
             <p>Linguagem declarativa</p>
             <p>Baseado em componentes, em resumo pedacinhos que são montados para realizar a aplicação </p>
 
-            <p> Sobre o JSX: React não separa as tecnologias colocando marcação em arquivos separados, e sim separa conceitos e mantém o código pouco acoplado chamando-os de componentes.</p>
+            <p> Sobre o JSX: React não separa as tecnologias colocando marcação em arquivos separados, e sim separa
+                conceitos e mantém o código pouco acoplado chamando-os de componentes.</p>
             <p>Sintax Suggar para React.crateElement </p>
-            <p>O browser nã interpreta o JSX, para isso é necessário um transpilador para que a aplicação possa entender o código. O mais utilizado é o Babel</p>
+            <p>O browser nã interpreta o JSX, para isso é necessário um transpilador para que a aplicação possa entender
+                o código. O mais utilizado é o Babel</p>
+        </div>
+        <div class="redenrizacao">
+            <h3>Renderização</h3>
+            <ul>
+                <li>Renderização de elementos</li>
+                <li>React DOM</li>
+                <p>O React não trabalha em cima do DOM do navegador, e sim usa o virtual DOM, que controla tudo que está
+                    no seu DOM, o React quando o html sofre uma alteração, pega apenas a parte que está diferente e
+                    aprica a renderização apenas aquela parte.</p>
+                <p>Ou seja, temos toda a árvore, mas só será alterada a parte que foi modificada</p>
+                <li>Nós Raiz</li>
 
+            </ul>
+            <p>React "pensa" em como a interface deve está a cada momento ao invés de alterá-la com o tempo, o que faz
+                te ganho de performance e evita uma série de erros</p>
+        </div>
+        <div class="estado-ciclo-vida">
+            <h3>Estado e Ciclo de Vida</h3>
+            <ul>
+                <h4>Estados</h4>
+                <li>Inicialização
+                    <ul>
+                        <li>props</li>
+                        <li>state</li>
+                    </ul>
+                </li>
+
+                <li>Montagem
+                    <ul>
+                        <li>componentWillMount
+                            <ul><li>render <ul>
+                                <li>componentDidMount</li>
+                            </ul></li></ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Atualização</li>
+                <li>Desmontagem</li>
+            </ul>
+            <p>Nenhum componente Pai ou filho devem saber se outro componente possui estado ou nãp.</p>
+            <p>O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via props.</p>
 
         </div>
-    
+        <div class="ecossistema">
+            <h3>exemplos</h3>
+            <p>Para aplicações robustas será necessário colocar outras bibliotecas e ferramentas junto, alguns exemplos a baixo</p>
+            <ul>
+               <li>React Router;</li>
+               <li>Redux;</li>
+               <p>para gerenciamento de estado</p>
+               <li>Material UI;</li>
+               <p>Para criação de interface, componentes prontos, para não precisar ficar criando componentes como, menu, botão ... </p>
+               <li>Ant-Design;</li>
+               <li>Storybook;</li>
+               <p>Apresentação de componentes visuais no mode de desenvolvimento </p>
+               <li>Gatsby</li>
+               <li>Jest;</li>
+               <p>Testes</p>
+               <li>React i18 Next.</li> 
+               <p>Internacionalização</p>
+            </ul>
+            <p>São ferramentas que serão instaladas no projeto criando classes ou adicionando como dependência</p>
+        </div>
+
+
     </section>
-    <section>
+    <section class="conceitos">
         <h3>Conceitos</h3>
         <table>
             <thead>
@@ -40,7 +111,9 @@
             <tbody>
                 <tr class="framework">
                     <td>Framework</td>
-                    <td> Te traz todo um apanhando de tecnologia, ja vai criar seu projeto, com varias camadas, ele ja vai ter uma configuração pré-definida, em outras palavras, não é possível sair muito da maneira que o framework trabalha</td>
+                    <td> Te traz todo um apanhando de tecnologia, ja vai criar seu projeto, com varias camadas, ele ja
+                        vai ter uma configuração pré-definida, em outras palavras, não é possível sair muito da maneira
+                        que o framework trabalha</td>
                     <td>...</td>
                     <td>...</td>
                     <td>Angular</td>
@@ -48,14 +121,54 @@
                 <tr>
                     <td>Biblioteca</td>
                     <td></td>
-                    <td>Mais controle da aplicação, não ficar amarrado a um framework e a evolução dele, trabalhar com javascript de uma forma mais simples</td>
+                    <td>Mais controle da aplicação, não ficar amarrado a um framework e a evolução dele, trabalhar com
+                        javascript de uma forma mais simples</td>
                     <td>Ecossistema muito grande</td>
                     <td>ReactJs</td>
+                </tr>
+                <tr>
+                    <td>Componentes</td>
+                    <td>Pedaços de estruturas de códigos, Podendo ser Funções e classes</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Props</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>children</td>
+                    <td>Propriedade do React: Tudo que eu passar através de um componente, eu posso acessar através do
+                        children</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <code>{
+                            "function ComponentA(props){
+                                <br><br>
+    
+                            return(<br>
+                               div>Componente A = D <br>
+                                div>{props.children}/div><br>
+                               /div><br><br>
+                                
+                                 ||| )<br>
+                            |||}"
+                            <br>
+                        }
+                            
+                        </code>
+                    </td>
                 </tr>
 
             </tbody>
         </table>
     </section>
-    
+
 </body>
+
 </html>
