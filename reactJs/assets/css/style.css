@@ -1,0 +1,5 @@
+
+table,th,tbody,tr,td{
+    border: 1px solid black;
+    columns: 150px auto;
+}
