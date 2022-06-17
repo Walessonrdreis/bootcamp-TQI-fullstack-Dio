@@ -1,0 +1,23 @@
+table,th,tbody,tr,td{
+    border: 1px solid black;
+    columns: 300px auto;
+}
+table{
+    width: 600px;
+    height: auto;
+    
+}
+td, th{
+    
+    cursor: pointer;
+    color: webkit-link;
+}
+tr td:first-child{
+    width: 150px;
+    text-align: justify;
+}
+a {
+    display: block;
+    background-color: transparent ;
+    
+}
